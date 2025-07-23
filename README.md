@@ -24,7 +24,7 @@ Steps:
 - Copy `config.sample.json` to `config.json`.
 - Add your Discord application ID and OAuth2 secret to `config.json`.
 - Edit your Cloudflare Access subdomain into `config.json` under `redirectURL`. This should be the same URL you added to Discord.
-- Publish the Worker with `npx wrangler publish`!
+- Publish the Worker with `npx wrangler deploy`!
 
 ## Usage
 

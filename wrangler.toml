@@ -3,5 +3,8 @@ main = "worker.js"
 compatibility_date = "2022-12-24"
 
 kv_namespaces = [
-  { binding = "KV", id = "0b9abda82acf461c8d4ecda656217e20", preview_id = "b43c22430b5240dea89cd6cc350d3946" }
+  { binding = "KV", id = "54592f4830ac47299123273d1b755b12", preview_id = "e5c5e8ad860f431da6432f7f2b66b3a3" }
 ]
+
+[observability.logs]
+enabled = true
